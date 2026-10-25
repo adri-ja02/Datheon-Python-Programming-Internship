@@ -2,72 +2,48 @@
 
 Python programming projects completed during the Datheon Python Programming Internship.
 
-This repository contains Python projects developed to practice programming fundamentals, file handling, data processing, input validation, and calculations.
+This repository contains practical Python projects developed to improve programming skills, problem-solving, file handling, data processing, and input validation.
 
-## Tasks
+## Projects
 
 ### Task 1: Hangman Word Guessing Game
+A console-based word guessing game where players guess a hidden English word one letter at a time.
 
-A console-based word guessing game developed using Python.
-
-**Features**
-- Random English word selection
+**Key Features**
+- Random word selection
 - Word list loaded from a text file
-- Letter-by-letter guessing
 - ASCII hangman drawings
 - Maximum of six incorrect guesses
 - Input validation and duplicate guess detection
 - Victory and defeat messages
 - Replay option
 
-**Technologies:** Python 3, random module, sets, functions, and file handling.
-
-**How to run**
-
-Open a terminal in the project directory and execute:
-
-```bash
-cd Task1_Hangman
-python hangman.py
-```
-
-Ensure that `google-10000-english-no-swears.txt` is in the same folder as `hangman.py`.
+[View Task 1](Task1_Hangman/)
 
 ### Task 2: Stock Portfolio Performance Tracker
+A command-line application that tracks stock investments, calculates portfolio performance, and exports results to a CSV file.
 
-A Python command-line application that tracks stock investments, calculates portfolio performance, and exports results to a CSV file.
+**Key Features**
+- S&P 500 ticker symbol validation
+- Purchase price and share quantity input
+- Current stock price lookup using Yahoo Finance when available
+- Profit/loss and percentage return calculations
+- Portfolio summary export to CSV
 
-**Features**
-- Loads S&P 500 company symbols from `constituents.csv`
-- Validates stock ticker symbols
-- Accepts purchase prices and share quantities
-- Retrieves current stock prices using Yahoo Finance when available
-- Calculates total investment, current market value, profit or loss, and percentage return
-- Saves portfolio results to `portfolio_summary.csv`
+[View Task 2](Task2_Stock_Portfolio/)
 
-**Technologies:** Python 3, CSV module, file handling, and `yfinance`.
-
-**Installation**
-
-Install the required library:
-
-```bash
-python -m pip install yfinance
-```
-
-**How to run**
-
-```bash
-cd Task2_Stock_Portfolio
-python portfolio.py
-```
-
-Follow the prompts to enter stock symbols, purchase prices, and share quantities. Type `DONE` when you have finished adding stocks.
-
-**Dataset:** `constituents.csv` contains S&P 500 company information and ticker symbols. It is used to validate symbols and does not contain live stock prices.
-
-**Disclaimer:** This project is for educational purposes only and does not provide financial advice. Stock price availability and accuracy depend on the external data provider.
+## Technologies Used
+- Python 3
+- CSV file handling
+- Functions, loops, and conditional statements
+- Dictionaries and sets
+- Exception handling
+- `yfinance` library
 
 ## Purpose
 
-This repository documents my practical Python programming work during the Datheon Python Programming Internship. It demonstrates programming fundamentals, data handling, input validation, and CSV file operations.
+This repository documents my practical programming work during the Datheon Python Programming Internship and demonstrates the application of Python to everyday computational problems.
+
+## Disclaimer
+
+The projects are for educational purposes only. The stock portfolio tracker does not provide financial advice, and stock prices may be delayed or unavailable.
