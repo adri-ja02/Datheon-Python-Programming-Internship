@@ -63,12 +63,15 @@ Python 3 , yfinance Installation
 
 Follow the prompts to enter stock symbols, purchase prices, and quantities. Type DONE when you have finished adding stocks.
 
-**Dataset**
+**Dataset:**
+
 constituents.csv contains S&P 500 company information and ticker symbols. It is used to validate symbols; it does not contain live stock prices.
 
-**Disclaimer**
+**Disclaimer:**
+
 This project is for educational purposes only and does not provide financial advice. Stock price availability and accuracy depend on the external data provider.
 
 
-**Purpose**
+**Purpose:**
+
 This repository documents my practical Python programming work during the internship.
