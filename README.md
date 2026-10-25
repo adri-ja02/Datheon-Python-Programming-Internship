@@ -7,13 +7,21 @@ Python programming projects completed during the Datheon Python Programming Inte
 A console-based word guessing game developed using Python.
 
 **Features:**
+
 -Random English word selection
+
 -Word list loaded from a text file
+
 -Letter-by-letter guessing
+
 -ASCII hangman drawings
+
 -Six incorrect guesses allowed
+
 -Input validation and duplicate guess detection
+
 -Victory and defeat messages
+
 -Replay option
 
 **Technologies:** Python 3, random module, sets, functions, and file handling.
